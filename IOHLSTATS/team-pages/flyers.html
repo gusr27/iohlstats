@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IOHL Flyers</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link href="../css/main.css" rel="stylesheet" type="text/css" />
+	<link href="../css/Animate.css" rel="stylesheet" type="text/css"/>
+	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet" />
+	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" rel="stylesheet" /><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script><script type="text/javascript" src="main.js"></script>
+</head>
+<body style="background: #f4eddb;">
+	<!-- Nav Bar Code -->
+	<div class="navbar" display:="">
+	<div aria-label="..." class="btn-group" role="group"><button class="btn " type="button">Home</button><button class="btn " type="button">Players</button>
+	<div class="btn-group" role="group"><button aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle" data-toggle="dropdown" type="button">Teams</button>
+	<ul class="dropdown-menu">
+		<li><a href="#">Dropdown link</a></li>
+		<li><a href="#">Dropdown link</a></li>
+	</ul>
+	</div>
+	</div>
+	</div>
+	
+	<div style="margin-top: 50px; ">
+	<h1 class="delay animated fadeInDown"><span class="label label-warning" style="margin-right: 10px; padding: 10px;"><img class="team-logo-page" src="../assets/team-logos/phi.png" /></span>Philadelphia Flyers Stats</h1>
+	</div>
+<!-- Stats Table w/ Player Names -->
+	<section>
+	<table class="table-striped table-rounded delay-longer animated fadeIn" id="myTable" style="float:left; width: 70%;">
+		<thead>
+			<tr>
+				<th colspan="18" style="text-align: center;">Player Stats</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr style="padding: 2px;">
+				<td colspan="2" style="text-align: center;">Player Name</td>
+				<td></td>
+				<td>GP</td>
+				<td>Record</td>
+				<td>Pts</td>
+				<td>Goals</td>
+				<td>Assists</td>
+				<td>+/-</td>
+				<td>Shot</td>
+				<td>S%</td>
+				<td>PIMs</td>
+				<td>Hits</td>
+				<td>PPG</td>
+				<td>SHG</td>
+				<td>FO</td>
+				<td>FOW</td>
+				<td>FO%</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">Ivan Provorov</a> <span class="label label-primary">Owner</span></td>
+				<td><span class="badge" id="hot">LD</span></td>
+				<td>3</td>
+				<td>3-0-0</td>
+				<td>13</td>
+				<td>3</td>
+				<td>10</td>
+				<td>+15</td>
+				<td>4</td>
+				<td>75%</td>
+				<td>0</td>
+				<td>15</td>
+				<td>1</td>
+				<td>1</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="#">Angry Pirate</a></td>
+				<td><span class="badge" id="cool">RD</span></td>
+				<td>3</td>
+				<td>1-1-1</td>
+				<td>2</td>
+				<td>1</td>
+				<td>1</td>
+				<td>-10</td>
+				<td>2</td>
+				<td>50%</td>
+				<td>20</td>
+				<td>2</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- Standings Table W/ Labels and Teams -->
+	
+	<table class="table-striped animated delay-longerer fadeIn" style="float: right; width: 20%; padding-bottom: 5px;">
+		<thead>
+			<tr>
+				<th colspan="2" style="text-align: center;">Last 3 Games</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Game</td>
+				<td>Result</td>
+			</tr>
+			<tr>
+				<td>@ Washington</td>
+				<td><span class="label label-danger" style="padding: .2em .6em .1em;">L 3-2</span></td>
+			</tr>
+			<tr>
+				<td>Vs Washington</td>
+				<td><span class="label label-danger" style="padding: .2em .6em .1em;">L 1-0</span></td>
+			</tr>
+			<tr>
+				<td>Vs. Pittsburgh</td>
+				<td><span class="label label-success" style="padding: .2em .6em .1em;">W 5-1</span></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<div contenteditable="">
+	<table class="table-striped animated delay-longest fadeIn" id="Standings" style="float: right; width: 20%; clear: right;">
+		<thead>
+			<tr>
+				<th colspan="4" style="text-align: center;">Standings</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td style="text-align:center;">Philadelphia</td>
+				<td>10-3-1</td>
+				<td style="padding-top: -1px; padding-bottom: 1px"><span class="label label-info" style="margin-bottom: 1px;">L2</span></td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- End of Standings Table -->
+	</section>
+	<footer style="float:left">
+	<p>Coded by Spidey</p>
+	</footer>
+	</div>
+</body>
+</html>

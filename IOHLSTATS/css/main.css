@@ -1,0 +1,512 @@
+<!-- Main Page CSS -->
+<!-- Stat Page CSS -->
+section{
+  background: #f4eddb;
+
+}
+header{
+	width: 100%;
+	height: 90px;
+	background: #14adff;
+	opacity: 0.5;
+	position: fixed;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='svgMask'><feGaussianBlur stdDeviation='10' /></filter></svg>#svgMask");
+}
+header .info-block{
+	
+	margin: 39px 10% 0px 10%;
+	background: #228cff;
+	width: 80%;
+	height: 30px;
+	border-radius: 20px 20px 0px 0px;
+	text-shadow: 1px 1px 0px black;
+	
+	
+	
+}
+section{
+	margin: 0px 10px 0px 10px;
+}
+.btn{
+  height: 49px;
+  background: none;
+  margin-top: 1px;
+  margin-right: 20px;
+  margin-left: 5px;
+  border: 1px solid black;
+  color: white;
+  
+}
+.btn:hover{
+  color: red;
+}
+.container{
+  background: #f4eddb;
+}
+.navbar{
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  border: 1px solid gray;
+  margin-top: -3px;
+  text-align: center;
+  
+ /* border-radius: 5px;*/
+  
+}
+
+.navbar{
+  background: #5563FA; /* For browsers that do not support gradients */
+  /*background-color: #5563FA;
+  background-image: linear-gradient(to bottom, #8E0E00 5%,  #1F1C18 100%);
+  background: -moz-linear-gradient(center top,  #2c3e50 5%, #3498db 100%);
+  
+  background: -webkit-linear-gradient(center top,  #2c3e50 5%, #3498db 100%);  For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(center top,  #2c3e50 5%, #3498db 100%); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(center top,  #2c3e50 5%, #3498db 100%); /* For Firefox 3.6 to 15 
+    background: linear-gradient(center top,  #2c3e50 5%, #3498db 100%);*/
+}
+.navbar button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+p{
+ font-size: 1.2em;
+
+}
+li{
+	float: left;
+}
+h1{
+  
+  text-align: left;
+  font-size: 2em;
+  color: orange;
+}
+
+td {
+  padding: 0 10px 0 10px;
+  border: 5px solid none;
+  color: black;
+  
+  
+}
+/*th:nth-child(1) {
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+}
+tr:last-child{
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}*/
+
+table {
+
+    border:1px solid black !important;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    background: white;
+    margin-top: 10px;
+    
+
+}
+td:nth-child(1){
+  text-align: center;
+}
+td:nth-child(n+4){
+  
+ text-align: center;
+}
+tr:nth-child(even){
+  background: #f9eddb;
+}
+tr:last-child{
+  padding-bottom: 10px;
+}
+
+#myTable{
+margin-top: 10px;
+
+  
+  
+}
+#Standings{
+ 
+ 
+}
+.foat-left{
+  float: left;
+  width: 50%;
+}
+td{
+	border: 1px solid rgba(0, 0, 0, 0.76);
+	text-align: center;
+	
+}
+td:first-child{
+  border-left:none;
+}
+td:last-child{
+  border-right: none;
+}
+
+td tr{
+  border-bottom: 0 !important;
+}
+
+
+
+   
+th {
+
+  background: #5563FA; /* For browsers that do not support gradients */
+  background-color: #5563FA;
+  background-image: linear-gradient(to bottom, #5563FA 5%, #3A44B5 100%);
+  background: -moz-linear-gradient(center top, #2BC0E4 5%, #EAECC 100%);
+  
+  background: -webkit-linear-gradient(center top, #5563FA 5%, #3A44B5 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(center top, #5563FA 5%, #3A44B5 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(center top, #5563FA 5%, #3A44B5 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(center top, #5563FA 5%, #3A44B5 100%);
+  text-align: center;
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+footer{
+  bottom:0;
+  text-align: center;
+  margin-top: 10px;
+  border-top: 1px solid black;
+  float: left;
+  clear: both;
+}
+.badge-info{
+  background-color: #05ccfb;
+}
+.badge-primary{
+  text-align: center;
+  background-color: #fe051c;
+}
+.semi-warm{
+  
+  background: teal;
+}
+.label{
+  padding: .2em .6em .1em;
+}
+
+#hot{
+  background-color: red;
+}
+#cool{
+  background-color: #05ccfb;
+}
+.team-logo-page{
+  max-width: 60px;
+}
+.label-warning{
+  background: -moz-linear-gradient( center top, #FA9716 5%, #DE8818 100% );
+  background: #FA9716; /* For browsers that do not support gradients */
+  background-color: #FA9716;
+  background-image: linear-gradient(to bottom, #FA9716 5%, #DE8818 100% );
+  background: -moz-linear-gradient(center top, #FA9716 5%, #DE8818 100% );
+  
+  background: -webkit-linear-gradient(center top, #FA9716 5%, #DE8818 100% ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(center top, #FA9716 5%, #DE8818 100% ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(center top, #FA9716 5%, #DE8818 100% ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(center top, #FA9716 5%, #DE8818 100% );
+}
+#primary_nav_wrap
+{
+  margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
+#primary_nav_wrap ul a
+{
+  display:block;
+  color:#333;
+  text-decoration:none;
+  font-weight:700;
+  font-size:12px;
+  line-height:32px;
+  padding:0 15px;
+  font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+
+
+#primary_nav_wrap ul li.current-menu-item
+{
+  background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+  background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+    padding:0;
+}
+
+#primary_nav_wrap ul ul li
+{
+  float:none;
+  width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+  line-height:120%;
+  padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+  top:0;
+  left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+  display:block
+}
+.mid-container{
+  height: 10%;
+  width: 800px;
+  border-radius: 2%;
+  margin: 20% auto;
+  font-size: 2em;
+  text-align: center;
+}
+.delay{
+  animation-delay:.6s;
+}
+.delay-longer{
+  animation-delay:1.2s;
+}
+.delay-longerer{
+	animation-delay: 1.8s;
+}
+.delay-longest{
+	animation-delay: 2.4s;
+}
+.delay-longestt{
+	animation-delay: 3s;
+}
+.delay-longesttt{
+	animation-delay: 3.6s;
+}
+#login-button{
+  float: right;
+}
+.header{
+  height:10%;
+  width:100%;
+  background: #006EFF;
+  text-align: center;
+}
+.header h1{
+  margin: 0;
+}
+/*
+  INDEX COLUMNS
+*/
+
+.centered{
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 20px 20px 20px 20px;
+
+}
+.highlighted{
+	color: #fa0404;
+}
+
+#index-columns li{
+  width: 30%;
+  margin: 2.5%;
+/*   box-shadow: 1px 1px 0px black; */
+/*
+   border-left: 2px solid #ffa70d;
+   border-top: 2px solid #ffa70d;
+   border-bottom: 2px solid #ffd180;
+   border-right: 2px solid #ffd180;
+*/
+}
+#index-columns div:hover{
+/* 	box-shadow: -1px -1px 0px black; */
+}
+
+#index-columns p{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+#player{
+  background: #007aff;
+  float: left;
+  border-left: 2px solid #0025ee;
+   border-top: 2px solid #0025ee;
+   border-bottom: 2px solid #3091ff;
+   border-right: 2px solid #3091ff;
+
+ 
+}
+#player:hover{
+  background: #1ad6fd;
+  border-left: 2px solid #3091ff;
+   border-top: 2px solid #3091ff;
+   border-bottom: 2px solid #0025ee;
+   border-right: 2px solid #0025ee;
+}
+
+#team{
+  background: #0bd318;
+  float: left;
+  
+}
+#team:hover{
+  background: #87fc70;
+}
+#game{
+  background: #ff3b30;
+  float: left;
+ 
+}
+#game:hover{
+  background: #fb648e;
+}
+/*********
+	PAGE: TEAM LANDING PAGE
+**********/
+.team-gallery{
+	padding:0;
+	list-style: none;
+	text-align: center;
+	
+}
+
+
+
+.team-gallery li img{
+	padding: 4px;
+	object-fit: contain;
+	width:100%;
+	margin: 0 auto;
+	
+}
+
+.team-gallery li{
+	display: inline-block;
+	float: left;
+	margin-left: 1.2%;
+	margin-right: 1.2%;
+	width: 13%;
+	height: 120px;
+	border: 2px solid gray;
+	border-radius: 48px 0px 36px 0px;
+	overflow: hidden;
+	background: none;
+	margin-bottom: 10px;
+}
+
+
+#row1{
+	height: 100px;
+	width: 100% !important;
+}
+
+/*****
+	GLIMMER CSS
+*****/
+/**
+ * Icon
+ */
+
+.icon {
+  position: relative;
+  overflow: hidden;
+  
+  display: inline-block;
+  
+  
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+/**
+ * The "shine" element
+ */
+
+.icon:after {
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+.icon:hover:after {
+  opacity: 1;
+  top: -30%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
+/* Active state */
+
+.icon:active:after {
+  opacity: 0;
+}
